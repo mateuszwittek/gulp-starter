@@ -1,0 +1,33 @@
+{
+  "name": "gulp-template",
+  "version": "1.0.0",
+  "description": "A simple gulp starter for web development",
+  "main": "index.php",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateuszwittek/gulp-starter.git"
+  },
+  "keywords": [
+    "gulp",
+    "starter",
+    "html",
+    "css",
+    "sass",
+    "js",
+    "php"
+  ],
+  "author": "Mateusz Wittek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateuszwittek/gulp-starter/issues"
+  },
+  "homepage": "https://github.com/mateuszwittek/gulp-starter#readme"
+}
