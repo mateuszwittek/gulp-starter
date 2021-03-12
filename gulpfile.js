@@ -1,13 +1,9 @@
-const config = require('./gulp-config.js');
-//tasks
-const startServer = require('./tasks/gulp-server.js').server;
-const reloadServer = require('./tasks/gulp-server.js').reload;
-const customCSS = require('./tasks/gulp-server.js').customCSS;
-
 const gulp = require("gulp");
-
-
-
+const config = require('./gulp-config');
+//tasks
+const startServer = require('./tasks/gulp-server').server;
+const reloadServer = require('./tasks/gulp-server').reload;
+const customCSS = require('./tasks/gulp-styles').customCSS;
 
 const reloadChanges = () => {
     gulp.watch(config.htmlFiles, reloadServer),
