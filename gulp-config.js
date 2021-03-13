@@ -2,12 +2,18 @@ module.exports = {
     htmlFiles: './src/**/*.html',
     phpFiles: './src/**/*.php',
 
+    prodFiles: './src/*.+(png|xml|css|php|html|ico|jpg|svg|webmanifest|htaccess)',
+    prodMainDestination: './dist/',
+
     cssCustomFiles: './src/assets/styles/custom/main.scss',
     cssVendorfiles: './src/assets/styles/vendor/*.css',
     cssDestination: './src/assets/styles/',
+    prodCssDestination: './dist/assets/styles/',
+
     jsCustomFiles: './src/assets/scripts/custom/*.js',
     jsVendorFiles: './src/assets/scripts/vendor/*.js',
     jsDestination: './src/assets/scripts/',
+    prodJsDestination: './dist/assets/scripts/',
 
     watchCssCustom: './src/assets/styles/custom/**/*.scss',
 	watchCssVendor: './src/assets/styles/vendor/*.css',
