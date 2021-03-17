@@ -11,5 +11,12 @@ module.exports = {
             .pipe(config.rename({ basename: config.customFile }))
             .pipe(config.gulp.dest(config.cssDestination))
             .pipe(config.browserSync.stream())
+    },
+    vendorCSS: () => {
+        return config.gulp
+            .src(config.cssVendorfiles, { allowEmpty: true })
+            .pipe(config.concat(config.vendorFile + '.css'))
+            .pipe(config.gulp.dest(config.cssDestination))
+            .pipe(config.browserSync.stream())
     }
 }

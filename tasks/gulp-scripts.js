@@ -10,4 +10,10 @@ module.exports = {
             .pipe(config.concat(config.customFile + '.js'))
             .pipe(config.gulp.dest(config.jsDestination))
     },
+    vendorJS: () => {
+        return config.gulp
+            .src(config.jsVendorFiles, { allowEmpty: true })
+            .pipe(config.concat(config.vendorFile + '.js'))
+            .pipe(config.gulp.dest(config.jsDestination))
+    }
 }

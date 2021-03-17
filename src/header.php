@@ -10,6 +10,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Marvel:wght@400;700&display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marvel:wght@400;700&display=swap" media="print" onload="this.media='all'" />
 
+  <link rel="stylesheet" href="./assets/styles/vendor.css">
   <link rel="stylesheet" href="./assets/styles/custom.css">
 </head>
 

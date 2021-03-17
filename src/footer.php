@@ -2,7 +2,8 @@
 
 <?php require './template-parts/footer.php'; ?>
 
-<script async src="/assets/js/custom.js"></script>
+<script src="./assets/scripts/vendor.js"></script>
+<script src="./assets/scripts/custom.js"></script>
 
 </body>
 </html>
